@@ -11,7 +11,7 @@ const Header = ({ setListImages, setIsLoading }) => {
 
     try {
       setIsLoading(true);
-      const response = await fetch("https://genieart-api-production.up.railway.app/openai/images", {
+      const response = await fetch("https://arty-api-production.up.railway.app/openai/images", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
